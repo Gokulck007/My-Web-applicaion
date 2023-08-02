@@ -22,7 +22,10 @@ Task 1: Infrastructure Setup.
 2. Goto the s3 service.
 3. Clicke 'Create Bucket' to create new s3 bucket.
 4. Gived unique name and choose a region click create.
-5.Added image in to the bucket .
+5. Added image in to the bucket .
+   
+
+
 6. Configured object "Make public using ACL".
 
 Task 2: Application Setup (Docker).
