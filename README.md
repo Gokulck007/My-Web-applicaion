@@ -30,7 +30,7 @@ Task 1: Infrastructure Setup.
 
 Task 2: Application Setup (Docker).
 
->Created a web application.
+>Created  web application and docker file in the server.
 
  1. `app.py` is the main flask app.
  2. `templates/index.html` is the HTML page.
