@@ -4,7 +4,9 @@
 
 Task 1: Infrastructure Setup.
 >Compute instance for the application server(EC2)
-I used terraform code to create EC2
+
+> I used terraform code to create EC2 for that i installed terraform and aws cli in my system using command prompt.
+
 1. Created a file named 'main.tf'.
 2. Initialized the teraform in cmd.
     ``terraform init``
@@ -12,6 +14,7 @@ I used terraform code to create EC2
     ``terraform plan``
 4. Apply terrform to create ec2.
     ``terraform apply``
+   >After applying terraform code have to type `yes` in cmd
 
 >Created a object storage bucket for storing static content.
 
@@ -30,6 +33,7 @@ Task 2: Application Setup (Docker).
  2. `templates/index.html` is the HTML page.
  3. Created  `requirements.txt` file to list requied dependecies for he flask app.
  4. Created a `Docker` file for building docker image.
+ >I installed docker desktop version on my system
  5. Build docker imge using `Docker` file.
  >Opened command prompt in project directory and run the following command.
  
