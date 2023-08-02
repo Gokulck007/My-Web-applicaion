@@ -1,5 +1,6 @@
 # My-Web-applicaion
 ***Demo project***
+: Setting up a simple web application on a cloud instance
 
 Task 1: Infrastructure Setup.
 >Compute instance for the application server(EC2)
@@ -55,9 +56,10 @@ Task 3: Configuration Management
 3.For run docker container
 ``sudo docker run -d -p 80:5000 my_demoweb_app:latest``
 
-4.For restart the docker container to apply the changes
-``sudo docker restart <093c735303535cf1d32cd2d70c5f604c31299396b71d3aa0e7295049655f34b2>``
-5.``chmod +x deploy_script.sh``
+4.For restart the docker container to apply the changes ``sudo docker restart <093c735303535cf1d32cd2d70c5f604c31299396b71d3aa0e7295049655f34b2>``
 
+5. ``chmod +x deploy_script.sh``
 
+>After the commands it will automated the deployment of yo Dockerized application on the application server
   
+>
